@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>지구과학 퀴즈!</title>
+    <script>
+      function no() {
+        let x = document.getElementsByClassName("quiz-text")[0];
+        x.innerText="틀렸습니다 O";
+        x.style.color="red";
+      }
+
+      function yes(){
+  let x = document.getElementsByClassName("quiz-text")[0];
+  x.innerText = "정답입니다 X";
+  x.style.color="blue";
+}
+  function no2() {
+    let x = document.getElementsByClassName("quiz-text2")[0];
+    x.innerText="틀렸습니다 X";
+    x.style.color="red";
+  }
+
+  function yes2(){
+let x = document.getElementsByClassName("quiz-text2")[0];
+x.innerText = "정답입니다 O";
+x.style.color="blue";
+}
+
+function no3() {
+  let x = document.getElementsByClassName("quiz-text3")[0];
+  x.innerText="틀렸습니다 X";
+  x.style.color="red";
+}
+
+function yes3(){
+let x = document.getElementsByClassName("quiz-text3")[0];
+x.innerText = "정답입니다 O";
+x.style.color="blue";
+}
+
+function no4() {
+  let x = document.getElementsByClassName("quiz-text4")[0];
+  x.innerText="틀렸습니다 X";
+  x.style.color="red";
+}
+
+function yes4(){
+let x = document.getElementsByClassName("quiz-text4")[0];
+x.innerText = "정답입니다 O";
+x.style.color="blue";
+}
+
+function no5() {
+  let x = document.getElementsByClassName("quiz-text5")[0];
+  x.innerText="틀렸습니다 X";
+  x.style.color="red";
+}
+
+function yes5(){
+let x = document.getElementsByClassName("quiz-text5")[0];
+x.innerText = "정답입니다 O";
+x.style.color="blue";
+}
+    </script>
+  </head>
+  <body>
+    <h1>지구과학 퀴즈!</h1><br>
+    <h3>문제1. 화폐석은 고생대의 화석이다.</h3>
+    <span class="quiz-text"></span>
+    <button type="button" onclick="no()">O</button>
+    <button type="button" onclick="yes()">X</button>
+    <h3>문제2. 모원소의 양이 처음의 양의 반으로 줄어드는 데걸리는 시간을 반감기라고 한다.</h3>
+    <span class="quiz-text2"></span>
+    <button type="button" onclick="yes2()">O</button>
+    <button type="button" onclick="no2()">X</button>
+    <h3>문제3. 고생대 후기에 지구 최대 규모의 대명종이 있었다.</h3>
+    <span class="quiz-text3"></span>
+    <button type="button" onclick="yes3()">O</button>
+    <button type="button" onclick="no3()">X</button>
+    <h3>문제4. 표준 화석으로 수억 년전 과거의 기후를 알아낸다.</h3>
+    <span class="quiz-text4"></span>
+    <button type="button" onclick="no4()">O</button>
+    <button type="button" onclick="yes4()">X</button>
+    <h3>문제5. 고생대 3번째 기는 데본기이다.</h3>
+    <span class="quiz-text5"></span>
+    <button type="button" onclick="yes5()">O</button>
+    <button type="button" onclick="no5()">X</button>
+    <br><br><br><a href="earth2.html"><img src="돌아가기2.png" width="20%"></a>
+  </body>
+</html>
